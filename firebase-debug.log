@@ -1,0 +1,39 @@
+[debug] [2020-04-01T14:02:42.695Z] ----------------------------------------------------------------------
+[debug] [2020-04-01T14:02:42.707Z] Command:       D:\Program Files\nodejs\node.exe D:\Users\CHW\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-04-01T14:02:42.707Z] CLI Version:   7.12.1
+[debug] [2020-04-01T14:02:42.707Z] Platform:      win32
+[debug] [2020-04-01T14:02:42.708Z] Node Version:  v13.3.0
+[debug] [2020-04-01T14:02:42.710Z] Time:          Wed Apr 01 2020 17:02:42 GMT+0300 (Ora de vară a Europei de Est)
+[debug] [2020-04-01T14:02:42.710Z] ----------------------------------------------------------------------
+[debug] [2020-04-01T14:02:42.710Z] 
+[debug] [2020-04-01T14:02:42.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-01T14:02:42.725Z] > authorizing via signed-in user
+[debug] [2020-04-01T14:02:42.725Z] [iam] checking project front-content-ac714 for permissions ["firebase.projects.get"]
+[debug] [2020-04-01T14:02:42.728Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/front-content-ac714:testIamPermissions  
+
+[debug] [2020-04-01T14:02:43.736Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-01T14:02:43.742Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/front-content-ac714  
+ 
+[debug] [2020-04-01T14:02:44.092Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\migwiz\dataX\SL'...
+[info] 
+[debug] [2020-04-01T14:02:44.130Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/front-content-ac714/webApps/-/config  
+ 
+[debug] [2020-04-01T14:02:44.739Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "13"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\migwiz\dataX\SL\functions" for Cloud Functions...
+[debug] [2020-04-01T14:02:45.707Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-04-01T14:02:45.708Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-04-01T14:02:45.708Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-04-01T14:02:45.709Z] [worker-~diagnostic~-3defcea2-8625-4cc6-906f-bf49ffbd99ff]: Assigning socketPath: \\?\pipe\C:\migwiz\dataX\SL\functions\1932
+[debug] [2020-04-01T14:02:45.710Z] [worker-~diagnostic~-3defcea2-8625-4cc6-906f-bf49ffbd99ff]: BUSY
+[debug] [2020-04-01T14:02:46.685Z] [runtime-status] [1932] Functions runtime initialized. {"cwd":"C:\\migwiz\\dataX\\SL\\functions","node_version":"13.3.0"}
+[debug] [2020-04-01T14:02:46.686Z] [runtime-status] [1932] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-04-01T14:02:46.691Z] [runtime-status] [1932] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\migwiz\\dataX\\SL\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-04-01T14:02:46.695Z] [runtime-status] [1932] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.5.0","resolution":"C:\\migwiz\\dataX\\SL\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-04-01T14:02:46.697Z] [runtime-status] [1932] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.5.0","resolution":"C:\\migwiz\\dataX\\SL\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-04-01T14:02:46.832Z] [worker-~diagnostic~-3defcea2-8625-4cc6-906f-bf49ffbd99ff]: IDLE
